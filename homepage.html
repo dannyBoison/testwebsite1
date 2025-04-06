@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tag for character encoding, specifying UTF-8 to support various characters -->
+    <meta charset="UTF-8">
+    
+    <!-- Meta tag for viewport settings, ensuring responsive design on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    
+    <!-- Title of the webpage that appears in the browser's tab -->
+    <title>The Wadhwa Group</title>
+    
+    <!-- Link to external CSS file for styling the webpage -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Link to external JavaScript file with the 'defer' attribute to load after HTML is parsed -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header section of the webpage containing navigation elements -->
+    <header>
+        <nav class="navbar fade-in">
+            <!-- Container to group the navigation items -->
+            <div class="container fade-in">
+                
+                <!-- Logo section with a link to the homepage -->
+                <a href="#" class="logo fade-in">
+                    <img src="img/TWG-LOGO-white.png" alt="The Wadhwa Group Logo" class="fade-in">
+                </a>
+                
+                <!-- Button for toggling the mobile menu (hamburger menu) -->
+                <button class="menu-toggle fade-in" id="menu-toggle">&#9776;</button>
+                
+                <!-- Unordered list of navigation links -->
+                <ul class="nav-links fade-in" id="nav-links">
+                    <!-- Home link -->
+                    <li><a href="#" class="fade-in">Home</a></li>
+                    
+                    <!-- About Us link -->
+                    <li><a href="#" class="fade-in">About Us</a></li>
+                    
+                    <!-- Residential dropdown menu -->
+                    <li class="dropdown fade-in">
+                        <a href="#" class="fade-in">Residential &#9662;</a>
+                        <!-- Dropdown menu items for Residential -->
+                        <ul class="dropdown-menu fade-in">
+                            <li><a href="#" class="fade-in">Ongoing</a></li>
+                            <li><a href="#" class="fade-in">Completed</a></li>
+                            <li><a href="#" class="fade-in">Upcoming</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Commercial dropdown menu -->
+                    <li class="dropdown fade-in">
+                        <a href="#" class="fade-in">Commercial &#9662;</a>
+                        <!-- Dropdown menu items for Commercial -->
+                        <ul class="dropdown-menu fade-in">
+                            <li><a href="#" class="fade-in">Ongoing</a></li>
+                            <li><a href="#" class="fade-in">Completed</a></li>
+                            <li><a href="#" class="fade-in">Upcoming</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Township dropdown menu -->
+                    <li class="dropdown fade-in">
+                        <a href="#" class="fade-in">Township &#9662;</a>
+                        <!-- Dropdown menu items for Township -->
+                        <ul class="dropdown-menu fade-in">
+                            <li><a href="#" class="fade-in">Ongoing</a></li>
+                            <li><a href="#" class="fade-in">Completed</a></li>
+                            <li><a href="#" class="fade-in">Upcoming</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Redevelopment link -->
+                    <li><a href="#" class="fade-in">Redevelopment</a></li>
+                    
+                    <!-- Contact Us link -->
+                    <li><a href="#" class="fade-in">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section: A visually striking section to welcome visitors -->
+      <section class="hero fade-in">
+          <!-- Main heading of the hero section -->
+          <h1>Welcome to Our World</h1>
+          
+          <!-- Description or tagline for the hero section -->
+          <p style="color: aliceblue;">We build dreams and create spaces that inspire</p>
+          
+          <!-- Call-to-action button encouraging users to explore further -->
+          <button class="cta-button fade-in">Explore Now</button>
+          
+          <!-- Right header element, possibly for background design or additional content -->
+          <div class="right-header fade-in"></div>
+      </section>
+  
+      <!-- About Us Section: Introduces the company and provides key statistics -->
+      <section id="custom-about-us">
+          <div class="about-container">
+              <!-- Text content for the About Us section -->
+              <div class="about-text">
+                  <h2>About Us</h2>
+                  <p>
+                      The Wadhwa Group carries a rich legacy of 
+                      <span id="decade-counter" class="counter decade-counter">0</span>
+                      <span class="unit">+ decades</span>, built on the trust and belief of our customers and stakeholders.
+                      The group is one of Mumbai’s leading real estate companies with 
+                      <span id="landmark-counter" class="counter landmark-counter">0</span>
+                      <span class="unit">+ landmarks</span> and is currently developing 
+                      residential, commercial, and township projects spread across approximately 
+                      <span id="area-counter" class="counter area-counter">0</span>
+                      <span class="unit">+ million sq. meters</span>.
+                  </p>
+                  
+                  <!-- Additional paragraph with more company information -->
+                  <p>
+                      Timely completion of projects, coupled with strong planning and design innovation, gives the group an edge over its competitors. 
+                      Today, the group’s clientele comprises over 
+                      <span class="counter client-counter" id="clients-counter">0</span>
+                      <span class="unit">+ satisfied customers</span> and over 
+                      <span class="counter mnc-counter" id="mncs-counter">0</span>
+                      <span class="unit">+ MNCs</span>.
+                  </p>
+              </div>
+  
+              <!-- Slideshow section showcasing various projects -->
+              <div class="about-slideshow">
+                  <div class="custom-slideshow-container">
+                      <!-- Custom card slide for project images with overlay text -->
+                      <div class="custom-card-slide custom-left">
+                          <img src="img/home-about1.jpg" alt="Image 1">
+                          <div class="card-overlay">Project 1</div>
+                      </div>
+                      <div class="custom-card-slide custom-right">
+                          <img src="img/homepage3.jpg" alt="Image 2">
+                          <div class="card-overlay">Project 2</div>
+                      </div>
+                      <div class="custom-card-slide custom-left">
+                          <img src="img/home-about1.jpg" alt="Image 3">
+                          <div class="card-overlay">Project 3</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Group Highlights Section: Displays key achievements and metrics -->
+      <section class="group-highlights">
+          <h2>Our Impact</h2>
+          
+          <!-- Grid of highlight cards showing various metrics -->
+          <div class="highlight-grid">
+              <!-- Individual highlight card displaying an image and information -->
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/1-1.png" alt="Decades of Experience">
+                  <h3>5+</h3>
+                  <p>Decades of experience in iconic developments</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/2-1.png" alt="Million sq. meters">
+                  <h3>4.1</h3>
+                  <p>Million sq. m. of residential & commercial spaces</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/3-1.png" alt="Accolades">
+                  <h3>Consistent</h3>
+                  <p>Accolades for life enhancement</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/4-1.png" alt="Design Focus">
+                  <h3>Strong</h3>
+                  <p>Focus on planning, designs & execution</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/5-1.png" alt="Delighted Customers">
+                  <h3>35000+</h3>
+                  <p>Delighted customers</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/6-2.png" alt="MNC Clients">
+                  <h3>150+</h3>
+                  <p>MNC clients</p>
+              </div>
+              <div class="highlight-card">
+                  <img class="rotating-img" src="img/7.png" alt="Landmarks Created">
+                  <h3>250+</h3>
+                  <p>Landmarks created</p>
+              </div>
+          </div>
+      </section>
+  </main>
+  
+      
+     
+  <!-- Unique Projects Carousel Section: Displays a carousel of current projects -->
+<section id="unique-projects-carousel" class="projects-section">
+  <div class="container">
+    <!-- Section Heading and Description -->
+    <h2>Our Current Projects</h2>
+    <p>Explore the exciting projects we are currently working on.</p>
+
+    <!-- Carousel Container: Holds the carousel for project images -->
+    <div class="carousel-container">
+      <div class="unique-carousel">
+        <!-- Individual Carousel Slides displaying images and project names -->
+        <div class="carousel-slide">
+          <img src="img/New-Project-21.jpg" alt="The Reserve, Panvel">
+          <div class="carousel-overlay">The Reserve, Panvel</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/tulip-appartments.jpg" alt="Tulip Apartments, Panvel">
+          <div class="carousel-overlay">Tulip Apartments, Panvel</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/the-h.jpg" alt="Evara, Panvel">
+          <div class="carousel-overlay">Evara, Panvel</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/tw-list.jpg" alt="TW Gardens, Kandivali East">
+          <div class="carousel-overlay">TW Gardens, Kandivali East</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/o2-list2.jpg" alt="Atmosphere O2, GMLR, Mulund West">
+          <div class="carousel-overlay">Atmosphere O2, GMLR, Mulund West</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/magnolia-list.jpg" alt="Magnolia, Panvel">
+          <div class="carousel-overlay">Magnolia, Panvel</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="img/venue-52.jpg" alt="Venue 52">
+          <div class="carousel-overlay">Venue 52</div>
+        </div>
+      </div>
+
+      <!-- Carousel Navigation Buttons: For previous and next slide navigation -->
+      <button class="prev" onclick="moveUniqueSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveUniqueSlide(1)">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+<!-- Design Heart Section: Focuses on the company's core values and design philosophy -->
+<section class="design-heart-section fade-in">
+  <div class="container design-heart-container">
+    <!-- Text Content Describing Design Philosophy -->
+    <div class="design-heart-text">
+      <!-- Dynamic Typewriter Heading -->
+      <h2 id="typewriter-heading"></h2>
+      <!-- Subheading -->
+      <p class="subheading fade-text">Setting a strong foundation for you</p>
+      
+      <!-- List of Design Points highlighting the company's core strengths -->
+      <ul class="design-points">
+        <li>Impeccable project execution</li>
+        <li>Transparency in dealings</li>
+        <li>Litigation-free projects</li>
+        <li>Positive exit covenants (Institutions, Investors, Customers)</li>
+        <li>Strong brand presence & delivery excellence</li>
+        <li>In-depth due diligence to ensure clear land titles</li>
+        <li>Design innovation with emphasis on practicality</li>
+      </ul>
+    </div>
+
+    <!-- Image Content: Displays two images for visual appeal -->
+    <div class="design-heart-image">
+      <img src="img/wad.jpg" alt="Design Description" class="main-img">
+      <img src="img/VENTILIT-Wadhwa-04.jpg" alt="Overlay Image" class="overlay-img">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Awards Section: Displays the accolades and awards the company has won over the years -->
+<section class="awards-section">
+  <div class="container">
+    <!-- Section Heading and Description -->
+    <h2>Our Accolades Over the Years</h2>
+    <p>Recognized for excellence, we are proud of our achievements.</p>
+
+    <!-- Award Gallery: A grid displaying individual award items -->
+    <div class="award-gallery">
+      
+      <!-- Award Item 1: Each item represents a distinct award with an image and information -->
+      <div class="award-item">
+        <img src="img/aw-1 (1).png" alt="Award 1">
+        <div class="award-info">
+          <h3>Best Real Estate Developer</h3>
+          <p>Recognized for excellence in real estate development and innovation.</p>
+        </div>
+      </div>
+
+      <!-- Award Item 2 -->
+      <div class="award-item">
+        <img src="img/aw-2 (1).png" alt="Award 2">
+        <div class="award-info">
+          <h3>Innovative Design Award</h3>
+          <p>Acknowledging groundbreaking design and architecture in the industry.</p>
+        </div>
+      </div>
+
+      <!-- Award Item 3 -->
+      <div class="award-item">
+        <img src="img/aw-3 (1).png" alt="Award 3">
+        <div class="award-info">
+          <h3>Leadership in Sustainability</h3>
+          <p>Recognized for sustainable and eco-friendly projects.</p>
+        </div>
+      </div>
+
+      <!-- Hidden Award Items (not yet displayed, possibly revealed through interaction) -->
+      <div class="award-item hidden">
+        <img src="img/aw-3.png" alt="Award 4">
+        <div class="award-info">
+          <h3>Best Architectural Innovation</h3>
+          <p>Recognized for cutting-edge design concepts in architecture.</p>
+        </div>
+      </div>
+
+      <div class="award-item hidden">
+        <img src="img/aw-2.png" alt="Award 5">
+        <div class="award-info">
+          <h3>Top Developer Award</h3>
+          <p>Awarded for outstanding performance and contribution to the real estate industry.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- External Font Awesome Link for Icons: Provides icons used in the Features Section below -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+<!-- Features Section: Highlights the key reasons why customers should choose the company -->
+<section class="features-section">
+  <div class="container fade-in">
+    <!-- Section Title -->
+    <h2 class="section-title">Why Choose Us</h2>
+    
+    <!-- Features Grid: A grid layout showcasing each feature of the company -->
+    <div class="features-grid">
+      
+      <!-- Feature Item 1 -->
+      <div class="feature-item">
+        <i class="fas fa-hard-hat"></i>
+        <h3>Innovative Construction</h3>
+        <p>Use of latest & innovative construction technology</p>
+      </div>
+
+      <!-- Feature Item 2 -->
+      <div class="feature-item">
+        <i class="fas fa-drafting-compass"></i>
+        <h3>Meticulous Planning</h3>
+        <p>Well planned homes keeping the smallest details in mind</p>
+      </div>
+
+      <!-- Feature Item 3 -->
+      <div class="feature-item">
+        <i class="fas fa-handshake"></i>
+        <h3>Customer First</h3>
+        <p>Adopting a customer-first approach in everything we do</p>
+      </div>
+
+      <!-- Feature Item 4 -->
+      <div class="feature-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Convenient Locations</h3>
+        <p>Thoughtfully selected project locations for utmost convenience</p>
+      </div>
+
+      <!-- Feature Item 5 -->
+      <div class="feature-item">
+        <i class="fas fa-cogs"></i>
+        <h3>Modern Technology</h3>
+        <p>Adapting latest technology in our projects</p>
+      </div>
+
+      <!-- Feature Item 6 -->
+      <div class="feature-item">
+        <i class="fas fa-award"></i>
+        <h3>Awarded Designs</h3>
+        <p>Best designs which are recognized across the industry</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section: Displays client testimonials and feedback -->
+<section class="testimonial-section">
+  <div class="container">
+    <!-- Section Title -->
+    <h2 class="testimonial-title">Testimonials</h2>
+
+    <!-- Testimonial Carousel: A slider showcasing client testimonials -->
+    <div class="testimonial-carousel">
+      
+      <!-- Testimonial Slide 1 -->
+      <div class="testimonial-slide active">
+        <p>
+          Wadhwa group is one of the leading developers known for its quality work and reputation. Wise City was my first flat visit, which I saw and immediately booked without looking out for 
+          any other project in the nearby vicinity. This project has good potential in the coming years
+        </p>
+        <div class="author">
+          <img src="img/harish.png" alt="Client 1">
+          <h4>Harish Amin</h4>
+        </div>
+      </div>
+
+      <!-- Testimonial Slide 2 -->
+      <div class="testimonial-slide fade-in">
+        <p>
+          Our family has lived in Ghatkopar for over 3 generations. As the family grew, we needed a bigger home. When we heard about The Address, we realized it was just perfect for our requirement.
+           It is an integrated township where being home itself feels like being on a holiday
+        </p>
+        <div class="author">
+          <img src="img/ramesh.png" alt="Client 2">
+          <h4> Ramesh Morabia</h4>
+          <span>Wadhwa Group Customer </span>
+        </div>
+      </div>
+
+      <!-- Testimonial Slide 3 -->
+      <div class="testimonial-slide">
+        <p>Since most of their developments meet global technology standards, our experience is
+           that most of the clients do not mind paying a premium, and that sets the Wadhwas apart.</p>
+        <div class="author">
+          <img src="img/uma.png" alt="Client 3">
+          <h4>Uma Shankar Mehta</h4>
+          <span>Associate Director, DTZ India</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Navigation Controls: Allows the user to navigate through testimonials -->
+    <div class="testimonial-controls">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+<!-- Legacy Section: Describes the company's long-standing reputation and ongoing projects -->
+<section class="legacy-section">
+  <div class="container fade-in">
+    <!-- Section Title -->
+    <h2 class="legacy-title">Legacy of Excellence</h2>
+
+    <!-- Legacy Descriptions: Talks about the company’s history and its commitment to quality -->
+    <p class="legacy-description fade-in">
+      With a rich legacy spanning decades, The Wadhwa Group has emerged as one of the top builders in Mumbai. Our commitment to excellence, coupled with a passion for innovation, has led us to create luxurious projects that redefine urban living.
+    </p>
+    <p class="legacy-description fade-in">
+      As prominent builders in Mumbai, we take pride in our journey of developing residential, commercial, and township projects that reflect our unwavering dedication to quality and customer satisfaction.
+    </p>
+    <p class="legacy-description fade-in">
+      At The Wadhwa Group, our name is synonymous with trust, quality, and luxury. We understand that a home is not just a structure; it’s where dreams take shape and memories are made. This belief drives us to create spaces that resonate with your lifestyle and aspirations.
+    </p>
+
+    <!-- Hidden Content: Contains additional information that can be revealed when clicking the "Read More" button -->
+    <div id="more-legacy-content" class="hidden">
+      <p class="legacy-description fade-in">
+        As top builders in Mumbai, we believe in delivering more than just buildings; 
+        we provide lifestyles. Our ongoing projects, such as Wadhwa Wise City, Atmosphere O2,
+         TW Gardens, Magnolia and Venue52 are testaments to our vision. Each project bears the 
+         hallmark of our commitment to excellence and dedication to crafting spaces that offer
+          the perfect blend of comfort and sophistication.
+      </p>
+      <p class="legacy-description">
+        Wadhwa Wise City, Atmosphere O2, TW Gardens, Magnolia and Venue52 are not just names; 
+        they are promises of a better tomorrow. These projects exemplify our dedication to 
+        creating communities that thrive and prosper.
+      </p>
+      <p class="legacy-description">
+        When you choose The Wadhwa Group, you choose more than just a home; yo
+        u choose a legacy of trust, innovation, and luxury. With us, you’re
+         not just buying a property; you’re investing in a lifestyle.
+      </p>
+      <p class="legacy-description">
+        Explore our ongoing projects, and let us help you find the perfect space
+         that resonates with your dreams and aspirations. Discover why The Wadhwa 
+         Group stands out as one of the top builders in Mumbai, where luxury meets excellence.
+      </p>
+      <p class="legacy-description">
+        Experience the difference with The Wadhwa Group – where every project is 
+        a masterpiece and every home is a dream fulfilled.
+      </p>
+    </div>
+
+    <!-- "Read More" Button: Allows the user to expand or collapse the additional legacy content -->
+    <button id="toggle-read-more" class="read-more-btn">Read More...</button>
+  </div>
+</section>
+
+<section class="request-call-back" style="background-image: url('img/contact-bg.jpg'); background-size: cover; background-position: center;">
+  <div class="form-container fade-in">
+    <!-- Section Title and Description -->
+    <h2>Request Call Back</h2>
+    <p>Please fill in your details below</p>
+
+    <!-- Contact Form: Allows users to enter their personal information and request a call back -->
+    <form action="#" method="post">
+      
+      <!-- First Name Input Field -->
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+
+      <!-- Last Name Input Field -->
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+
+      <!-- Mobile Number Input Field -->
+      <div class="form-group">
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+
+      <!-- Email Input Field -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <!-- Date of Birth Input Field -->
+      <div class="form-group">
+        <label for="dob">Date of Birth (mm/dd/yyyy)</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <!-- Message Input Field -->
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="submit-btn">Contact</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section: Contains company information, project details, and social media links -->
+<footer>
+  <div class="contact">
+    <!-- Contact Information -->
+    <h3>CONTACT</h3>
+    <p>The Wadhwa Group</p>
+    <p>Email: <a href="mailto:enquiry@thewadhwagroup.com">enquiry@thewadhwagroup.com</a></p>
+    <p>Toll-Free: 1800 209 6669</p>
+  </div>
+
+  <!-- Divider Between Contact and Projects Sections -->
+  <div class="footer-divider"></div>
+
+  <div class="projects">
+    <!-- Residential Projects List -->
+    <div class="residential">
+      <h4>Residential</h4>
+      <ul>
+        <li>TW Gardens</li>
+        <li>Atmosphere O2</li>
+        <li>Wadhwa Wise City</li>
+        <li>Magnolia</li>
+        <li>The Haven</li>
+      </ul>
+    </div>
+
+    <!-- Commercial Projects List -->
+    <div class="commercial">
+      <h4>Commercial</h4>
+      <ul>
+        <li>Venue 52</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Divider Between Projects and Footer Bottom Sections -->
+  <div class="footer-divider"></div>
+
+  <div class="footer-bottom">
+    <!-- Footer Bottom Information -->
+    <p>&copy; 2024 The Wadhwa Group. All Rights Reserved</p>
+    <a href="/disclaimer">Disclaimer-- danielboison31@gmail.com--+233 559093818</a> |
+    <a href="/privacy-policy">Privacy Policy @SONOFBOY</a>
+  </div>
+
+  <!-- Social Media Icons: Links to the company’s social media pages -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/TheWadhwaGroup" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/TheWadhwaGroup" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/TheWadhwaGroup" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/thewadhwagroup" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+<script>
+   /* document.addEventListener("DOMContentLoaded", function () {
+        // Get menu toggle button and navigation links elements
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+    
+        // Add event listener to toggle menu visibility on click
+        menuToggle.addEventListener("click", function () {
+            // Toggle the visibility of the navigation menu
+            if (navLinks.style.display === "flex") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "flex";
+            }
+        });
+    });*/
+</script>
+
+</body>
+</html>
